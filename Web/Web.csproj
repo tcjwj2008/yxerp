@@ -1,0 +1,1335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B535162-10C2-4238-BC56-193B968E1834}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>yinxiang.Web</RootNamespace>
+    <AssemblyName>yinxiang.Web</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+    <DesktopBuildPackageLocation>D:\yx\Web.zip</DesktopBuildPackageLocation>
+    <PackageAsSingleFile>true</PackageAsSingleFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LTP.Accounts, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\LTP.Accounts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LtpPageControl, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Lib\LtpPageControl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.UI.WebControls, Version=1.0.2.226, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Microsoft.Web.UI.WebControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\yinxiang.Web.dll" />
+    <Content Include="bin\yinxiang.Web.pdb" />
+    <Content Include="Controls\checkright.ascx" />
+    <Content Include="Controls\copyright.ascx" />
+    <Content Include="css\base.css" />
+    <Content Include="css\menu.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Images\login.png" />
+    <Content Include="Images\loginsmall.png" />
+    <Content Include="js\adapter.js" />
+    <Content Include="js\calendar1.js" />
+    <Content Include="js\CheckBox.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\menu.js" />
+    <Content Include="js\script.js" />
+    <Content Include="k3_2Operator\Add.aspx" />
+    <Content Include="k3_2Operator\List.aspx" />
+    <Content Include="k3_2Operator\Modify.aspx" />
+    <Content Include="k3_2Operator\Show.aspx" />
+    <Content Include="k3_2Operator_new\Add.aspx" />
+    <Content Include="k3_2Operator_new\List.aspx" />
+    <Content Include="k3_2Operator_new\Modify.aspx" />
+    <Content Include="k3_2Operator_new\Show.aspx" />
+    <Content Include="frmBTpfsk.aspx" />
+    <Content Include="frmCostQueryForm.aspx" />
+    <Content Include="frmDZPmain.aspx" />
+    <Content Include="frmRYmain.aspx" />
+    <Content Include="frmRZPmain.aspx" />
+    <Content Include="frmSLmain.aspx" />
+    <Content Include="frmSPmain.aspx" />
+    <Content Include="frmYZmain.aspx" />
+    <Content Include="FunctionAdd.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="RP\from\frmBTpfsk.aspx" />
+    <Content Include="RP\from\frmBTpfsk1.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="RP\from\frmRSjy.aspx" />
+    <Content Include="RP\from\frmXSKHQKreport.aspx" />
+    <Content Include="RP\from\frmYSMXZreport.aspx" />
+    <Content Include="RP\from\frmYXCKreport.aspx" />
+    <Content Include="smes_functionName\Add.aspx" />
+    <Content Include="smes_functionName\List.aspx" />
+    <Content Include="smes_functionName\Modify.aspx" />
+    <Content Include="smes_functionName\Show.aspx" />
+    <Content Include="smes_functionName_new\Add.aspx" />
+    <Content Include="smes_functionName_new\List.aspx" />
+    <Content Include="smes_functionName_new\Modify.aspx" />
+    <Content Include="smes_functionName_new\Show.aspx" />
+    <Content Include="t_Item_XS_Base_New\Add.aspx" />
+    <Content Include="t_Item_XS_Base_New\List.aspx" />
+    <Content Include="t_Item_XS_Base_New\Modify.aspx" />
+    <Content Include="t_Item_XS_Base_New\Show.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="webctrl_client\1_0\Images\folder.gif" />
+    <Content Include="webctrl_client\1_0\Images\folderopen.gif" />
+    <Content Include="webctrl_client\1_0\Images\html.gif" />
+    <Content Include="webctrl_client\1_0\Images\root.gif" />
+    <Content Include="webctrl_client\1_0\MultiPage.htc" />
+    <Content Include="webctrl_client\1_0\TabStrip.htc" />
+    <Content Include="webctrl_client\1_0\toolbar.htc" />
+    <Content Include="webctrl_client\1_0\TreeImages\f.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\fminus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\fplus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\i.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\L.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\Lminus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\Lplus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\minus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\plus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\r.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\Rminus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\Rplus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\F.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\Fminus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\Fplus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\I.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\L.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\Lminus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\Lplus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\minus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\plus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\r.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\Rminus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\Rplus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\T.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\Tminus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\Tplus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\rtl\white.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\T.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\Tminus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\Tplus.gif" />
+    <Content Include="webctrl_client\1_0\TreeImages\white.gif" />
+    <Content Include="webctrl_client\1_0\treeview.htc" />
+    <Content Include="WebForm5.aspx" />
+    <Content Include="yinxiang.gif" />
+    <Content Include="YXRY.aspx" />
+    <Content Include="YXRYForprint.aspx" />
+    <Content Include="yx_functionuser_new\Add.aspx" />
+    <Content Include="yx_functionuser_new\List.aspx" />
+    <Content Include="yx_functionuser_new\Modify.aspx" />
+    <Content Include="yx_functionuser_new\Show.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Accounts\Add.aspx.cs">
+      <DependentUpon>add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\Add.aspx.designer.cs">
+      <DependentUpon>add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\EditRole.aspx.cs">
+      <DependentUpon>editrole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\EditRole.aspx.designer.cs">
+      <DependentUpon>editrole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\Index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\Index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\PermissionAdmin.aspx.cs">
+      <DependentUpon>permissionadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\PermissionAdmin.aspx.designer.cs">
+      <DependentUpon>permissionadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\RoleAdmin.aspx.cs">
+      <DependentUpon>RoleAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\RoleAdmin.aspx.designer.cs">
+      <DependentUpon>RoleAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\RoleAssignment.aspx.cs">
+      <DependentUpon>roleassignment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\RoleAssignment.aspx.designer.cs">
+      <DependentUpon>roleassignment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\UserAdmin.aspx.cs">
+      <DependentUpon>UserAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\UserAdmin.aspx.designer.cs">
+      <DependentUpon>UserAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\UserAdminList.aspx.cs">
+      <DependentUpon>UserAdminList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\UserAdminList.aspx.designer.cs">
+      <DependentUpon>UserAdminList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\UserAssignmentRole.aspx.cs">
+      <DependentUpon>UserAssignmentRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\UserAssignmentRole.aspx.designer.cs">
+      <DependentUpon>UserAssignmentRole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\UserType.aspx.cs">
+      <DependentUpon>UserType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\Admin\UserType.aspx.designer.cs">
+      <DependentUpon>UserType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\SetPass.aspx.cs">
+      <DependentUpon>setpass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\SetPass.aspx.designer.cs">
+      <DependentUpon>setpass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\userinfo.aspx.cs">
+      <DependentUpon>userinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\userinfo.aspx.designer.cs">
+      <DependentUpon>userinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\usermodify.aspx.cs">
+      <DependentUpon>usermodify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\usermodify.aspx.designer.cs">
+      <DependentUpon>usermodify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\userPass.aspx.cs">
+      <DependentUpon>userpass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\userPass.aspx.designer.cs">
+      <DependentUpon>userpass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Accounts\userupdate.aspx.cs">
+      <DependentUpon>userupdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Accounts\userupdate.aspx.designer.cs">
+      <DependentUpon>userupdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Left.aspx.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Left.aspx.designer.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Relogin.aspx.cs">
+      <DependentUpon>Relogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Relogin.aspx.designer.cs">
+      <DependentUpon>Relogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ShowCallBoard.aspx.cs">
+      <DependentUpon>ShowCallBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ShowCallBoard.aspx.designer.cs">
+      <DependentUpon>ShowCallBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Spliter.aspx.cs">
+      <DependentUpon>Spliter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Spliter.aspx.designer.cs">
+      <DependentUpon>Spliter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SysManage\add.aspx.cs">
+      <DependentUpon>add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SysManage\add.aspx.designer.cs">
+      <DependentUpon>add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SysManage\delete.aspx.cs">
+      <DependentUpon>delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SysManage\delete.aspx.designer.cs">
+      <DependentUpon>delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SysManage\IndexTree.aspx.cs">
+      <DependentUpon>IndexTree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SysManage\IndexTree.aspx.designer.cs">
+      <DependentUpon>IndexTree.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SysManage\LogIndex.aspx.cs">
+      <DependentUpon>logindex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SysManage\LogIndex.aspx.designer.cs">
+      <DependentUpon>logindex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SysManage\LogShow.aspx.cs">
+      <DependentUpon>logshow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SysManage\LogShow.aspx.designer.cs">
+      <DependentUpon>logshow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SysManage\makesql.aspx.cs">
+      <DependentUpon>makesql.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SysManage\makesql.aspx.designer.cs">
+      <DependentUpon>makesql.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SysManage\modify.aspx.cs">
+      <DependentUpon>modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SysManage\modify.aspx.designer.cs">
+      <DependentUpon>modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SysManage\search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SysManage\search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SysManage\show.aspx.cs">
+      <DependentUpon>show.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SysManage\show.aspx.designer.cs">
+      <DependentUpon>show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SysManage\treelist.aspx.cs">
+      <DependentUpon>treelist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SysManage\treelist.aspx.designer.cs">
+      <DependentUpon>treelist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\toindex.aspx.cs">
+      <DependentUpon>toindex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\toindex.aspx.designer.cs">
+      <DependentUpon>toindex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Top.aspx.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Top.aspx.designer.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CheckRight.ascx.cs">
+      <DependentUpon>checkright.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CheckRight.ascx.designer.cs">
+      <DependentUpon>checkright.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CopyRight.ascx.cs">
+      <DependentUpon>copyright.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CopyRight.ascx.designer.cs">
+      <DependentUpon>copyright.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmBTpfsk.aspx.cs">
+      <DependentUpon>frmBTpfsk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmBTpfsk.aspx.designer.cs">
+      <DependentUpon>frmBTpfsk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCostQueryForm.aspx.cs">
+      <DependentUpon>frmCostQueryForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmCostQueryForm.aspx.designer.cs">
+      <DependentUpon>frmCostQueryForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmDZPmain.aspx.cs">
+      <DependentUpon>frmDZPmain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmDZPmain.aspx.designer.cs">
+      <DependentUpon>frmDZPmain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmRYmain.aspx.cs">
+      <DependentUpon>frmRYmain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmRYmain.aspx.designer.cs">
+      <DependentUpon>frmRYmain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmRZPmain.aspx.cs">
+      <DependentUpon>frmRZPmain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmRZPmain.aspx.designer.cs">
+      <DependentUpon>frmRZPmain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmSLmain.aspx.cs">
+      <DependentUpon>frmSLmain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmSLmain.aspx.designer.cs">
+      <DependentUpon>frmSLmain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmSPmain.aspx.cs">
+      <DependentUpon>frmSPmain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmSPmain.aspx.designer.cs">
+      <DependentUpon>frmSPmain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmYZmain.aspx.cs">
+      <DependentUpon>frmYZmain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmYZmain.aspx.designer.cs">
+      <DependentUpon>frmYZmain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionAdd.aspx.cs">
+      <DependentUpon>FunctionAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FunctionAdd.aspx.designer.cs">
+      <DependentUpon>FunctionAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="k3_2Operator\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="k3_2Operator\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="k3_2Operator\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="k3_2Operator\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="k3_2Operator\Modify.aspx.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="k3_2Operator\Modify.aspx.designer.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="k3_2Operator\Show.aspx.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="k3_2Operator\Show.aspx.designer.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="k3_2Operator_new\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="k3_2Operator_new\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="k3_2Operator_new\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="k3_2Operator_new\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="k3_2Operator_new\Modify.aspx.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="k3_2Operator_new\Modify.aspx.designer.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="k3_2Operator_new\Show.aspx.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="k3_2Operator_new\Show.aspx.designer.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.master.designer.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RP\from\frmBTpfsk.aspx.cs">
+      <DependentUpon>frmBTpfsk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RP\from\frmBTpfsk.aspx.designer.cs">
+      <DependentUpon>frmBTpfsk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RP\from\frmBTpfsk1.aspx.cs">
+      <DependentUpon>frmBTpfsk1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RP\from\frmBTpfsk1.aspx.designer.cs">
+      <DependentUpon>frmBTpfsk1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RP\from\frmRSjy.aspx.cs">
+      <DependentUpon>frmRSjy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RP\from\frmRSjy.aspx.designer.cs">
+      <DependentUpon>frmRSjy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RP\from\frmXSKHQKreport.aspx.cs">
+      <DependentUpon>frmXSKHQKreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RP\from\frmXSKHQKreport.aspx.designer.cs">
+      <DependentUpon>frmXSKHQKreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RP\from\frmYSMXZreport.aspx.cs">
+      <DependentUpon>frmYSMXZreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RP\from\frmYSMXZreport.aspx.designer.cs">
+      <DependentUpon>frmYSMXZreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RP\from\frmYXCKreport.aspx.cs">
+      <DependentUpon>frmYXCKreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RP\from\frmYXCKreport.aspx.designer.cs">
+      <DependentUpon>frmYXCKreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RP\rpt\btpfsk.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\btpfsk1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>btpfsk.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\Btsk_d.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\Btsk_d1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Btsk_d.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\btsk_d_dz.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\btsk_d_dz1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>btsk_d_dz.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\dzpysdzd.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\dzpysdzd1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dzpysdzd.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\dzpyxtj.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\dzpyxtj1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dzpyxtj.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\yx_cr_pdjy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\yx_cr_pdjy1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>yx_cr_pdjy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\白条批发部级别明细.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\白条批发部级别明细1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>白条批发部级别明细.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\筐具出入库订单打印.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\筐具出入库订单打印1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>筐具出入库订单打印.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\肉业订单打印.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\肉业订单打印1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>肉业订单打印.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\食品销售计划表.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RP\rpt\食品销售计划表1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>食品销售计划表.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="smes_functionName\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="smes_functionName\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="smes_functionName\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="smes_functionName\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="smes_functionName\Modify.aspx.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="smes_functionName\Modify.aspx.designer.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="smes_functionName\Show.aspx.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="smes_functionName\Show.aspx.designer.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="smes_functionName_new\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="smes_functionName_new\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="smes_functionName_new\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="smes_functionName_new\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="smes_functionName_new\Modify.aspx.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="smes_functionName_new\Modify.aspx.designer.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="smes_functionName_new\Show.aspx.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="smes_functionName_new\Show.aspx.designer.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="t_Item_XS_Base_New\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="t_Item_XS_Base_New\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="t_Item_XS_Base_New\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="t_Item_XS_Base_New\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="t_Item_XS_Base_New\Modify.aspx.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="t_Item_XS_Base_New\Modify.aspx.designer.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="t_Item_XS_Base_New\Show.aspx.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="t_Item_XS_Base_New\Show.aspx.designer.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="ValidateCode.aspx.cs">
+      <DependentUpon>ValidateCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidateCode.aspx.designer.cs">
+      <DependentUpon>ValidateCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm5.aspx.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm5.aspx.designer.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YXRY.aspx.cs">
+      <DependentUpon>YXRY.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YXRY.aspx.designer.cs">
+      <DependentUpon>YXRY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YXRYForprint.aspx.cs">
+      <DependentUpon>YXRYForprint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YXRYForprint.aspx.designer.cs">
+      <DependentUpon>YXRYForprint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yx_functionuser_new\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yx_functionuser_new\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yx_functionuser_new\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yx_functionuser_new\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yx_functionuser_new\Modify.aspx.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yx_functionuser_new\Modify.aspx.designer.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yx_functionuser_new\Show.aspx.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yx_functionuser_new\Show.aspx.designer.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin\Accounts\Add.aspx.resx">
+      <DependentUpon>Add.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Accounts\Admin\EditRole.aspx.resx">
+      <DependentUpon>EditRole.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Accounts\Admin\Index.aspx.resx">
+      <DependentUpon>Index.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Accounts\Admin\PermissionAdmin.aspx.resx">
+      <DependentUpon>PermissionAdmin.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Accounts\Admin\RoleAdmin.aspx.resx">
+      <DependentUpon>RoleAdmin.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Accounts\Admin\RoleAssignment.aspx.resx">
+      <DependentUpon>RoleAssignment.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Accounts\Admin\UserAdmin.aspx.resx">
+      <DependentUpon>UserAdmin.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Accounts\userinfo.aspx.resx">
+      <DependentUpon>userinfo.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Accounts\usermodify.aspx.resx">
+      <DependentUpon>usermodify.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Accounts\userPass.aspx.resx">
+      <DependentUpon>userPass.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Accounts\userupdate.aspx.resx">
+      <DependentUpon>userupdate.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Left.aspx.resx">
+      <DependentUpon>Left.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Logout.aspx.resx">
+      <DependentUpon>Logout.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Main.aspx.resx">
+      <DependentUpon>Main.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Relogin.aspx.resx">
+      <DependentUpon>Relogin.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ShowCallBoard.aspx.resx">
+      <DependentUpon>ShowCallBoard.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Spliter.aspx.resx">
+      <DependentUpon>Spliter.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SysManage\add.aspx.resx">
+      <DependentUpon>add.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SysManage\delete.aspx.resx">
+      <DependentUpon>delete.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SysManage\LogIndex.aspx.resx">
+      <DependentUpon>LogIndex.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SysManage\LogShow.aspx.resx">
+      <DependentUpon>LogShow.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SysManage\makesql.aspx.resx">
+      <DependentUpon>makesql.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SysManage\modify.aspx.resx">
+      <DependentUpon>modify.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SysManage\search.aspx.resx">
+      <DependentUpon>search.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SysManage\show.aspx.resx">
+      <DependentUpon>show.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SysManage\treelist.aspx.resx">
+      <DependentUpon>treelist.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\toindex.aspx.resx">
+      <DependentUpon>toindex.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Top.aspx.resx">
+      <DependentUpon>Top.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RP\rpt\btpfsk.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>btpfsk1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RP\rpt\Btsk_d.resx">
+      <DependentUpon>Btsk_d.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="RP\rpt\Btsk_d.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Btsk_d1.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="RP\rpt\btsk_d_dz.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>btsk_d_dz1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RP\rpt\dzpysdzd.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>dzpysdzd1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RP\rpt\dzpyxtj.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>dzpyxtj1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RP\rpt\yx_cr_pdjy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>yx_cr_pdjy1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RP\rpt\白条批发部级别明细.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>白条批发部级别明细1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RP\rpt\筐具出入库订单打印.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>筐具出入库订单打印1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RP\rpt\肉业订单打印.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>肉业订单打印1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RP\rpt\食品销售计划表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>食品销售计划表1.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Accounts\add.aspx" />
+    <Content Include="Admin\Accounts\Admin\editrole.aspx" />
+    <Content Include="Admin\Accounts\Admin\index.aspx" />
+    <Content Include="Admin\Accounts\Admin\permissionadmin.aspx" />
+    <Content Include="Admin\Accounts\Admin\RoleAdmin.aspx" />
+    <Content Include="Admin\Accounts\Admin\roleassignment.aspx" />
+    <Content Include="Admin\Accounts\Admin\UserAdmin.aspx" />
+    <Content Include="Admin\Accounts\Admin\UserAdminList.aspx" />
+    <Content Include="Admin\Accounts\Admin\UserAssignmentRole.aspx" />
+    <Content Include="Admin\Accounts\Admin\UserRoleAssignment.aspx" />
+    <Content Include="Admin\Accounts\Admin\UserType.aspx" />
+    <Content Include="Admin\Accounts\images\adminLeftArrow.gif" />
+    <Content Include="Admin\Accounts\images\admin_top_bg.gif" />
+    <Content Include="Admin\Accounts\images\bg.gif" />
+    <Content Include="Admin\Accounts\images\bg1.gif" />
+    <Content Include="Admin\Accounts\images\bg2.gif" />
+    <Content Include="Admin\Accounts\images\bg3.gif" />
+    <Content Include="Admin\Accounts\images\bottombg.gif" />
+    <Content Include="Admin\Accounts\images\btnreview.GIF" />
+    <Content Include="Admin\Accounts\images\button-join.gif" />
+    <Content Include="Admin\Accounts\images\button-login.gif" />
+    <Content Include="Admin\Accounts\images\button_add.gif" />
+    <Content Include="Admin\Accounts\images\button_back.gif" />
+    <Content Include="Admin\Accounts\images\button_cancel.gif" />
+    <Content Include="Admin\Accounts\images\button_close.gif" />
+    <Content Include="Admin\Accounts\images\button_del.gif" />
+    <Content Include="Admin\Accounts\images\button_edit.gif" />
+    <Content Include="Admin\Accounts\images\button_look.gif" />
+    <Content Include="Admin\Accounts\images\button_ok.gif" />
+    <Content Include="Admin\Accounts\images\button_save.gif" />
+    <Content Include="Admin\Accounts\images\button_search.GIF" />
+    <Content Include="Admin\Accounts\images\button_sift.gif" />
+    <Content Include="Admin\Accounts\images\button_update.gif" />
+    <Content Include="Admin\Accounts\images\lan1.gif" />
+    <Content Include="Admin\Accounts\images\lan12.gif" />
+    <Content Include="Admin\Accounts\images\loading.gif" />
+    <Content Include="Admin\Accounts\images\navspacer.gif" />
+    <Content Include="Admin\Accounts\images\skin2\downbg.gif" />
+    <Content Include="Admin\Accounts\images\skin2\topbar_01.jpg" />
+    <Content Include="Admin\Accounts\images\topbg.gif" />
+    <Content Include="Admin\Accounts\setpass.aspx" />
+    <Content Include="Admin\Accounts\style\css.css" />
+    <Content Include="Admin\Accounts\style\style.css" />
+    <Content Include="Admin\Accounts\userinfo.aspx" />
+    <Content Include="Admin\Accounts\usermodify.aspx" />
+    <Content Include="Admin\Accounts\userpass.aspx" />
+    <Content Include="Admin\Accounts\userupdate.aspx" />
+    <Content Include="Admin\Images\about16.gif" />
+    <Content Include="Admin\Images\add16.gif" />
+    <Content Include="Admin\Images\a_te01.gif" />
+    <Content Include="Admin\Images\a_te02.gif" />
+    <Content Include="Admin\Images\b1.gif" />
+    <Content Include="Admin\Images\b11-1.gif" />
+    <Content Include="Admin\Images\b11-2.gif" />
+    <Content Include="Admin\Images\b11.gif" />
+    <Content Include="Admin\Images\b12.gif" />
+    <Content Include="Admin\Images\b13-1.gif" />
+    <Content Include="Admin\Images\b13-2.gif" />
+    <Content Include="Admin\Images\b13.gif" />
+    <Content Include="Admin\Images\b3.gif" />
+    <Content Include="Admin\Images\b4.gif" />
+    <Content Include="Admin\Images\b5.gif" />
+    <Content Include="Admin\Images\bar_00.gif" />
+    <Content Include="Admin\Images\bar_01.gif" />
+    <Content Include="Admin\Images\bar_02.gif" />
+    <Content Include="Admin\Images\bar_03.gif" />
+    <Content Include="Admin\Images\bar_04.gif" />
+    <Content Include="Admin\Images\bar_05.gif" />
+    <Content Include="Admin\Images\bar_06.gif" />
+    <Content Include="Admin\Images\bar_07.gif" />
+    <Content Include="Admin\Images\bar_08.gif" />
+    <Content Include="Admin\Images\bar_10.gif" />
+    <Content Include="Admin\Images\bg.gif" />
+    <Content Include="Admin\Images\bgx.GIF" />
+    <Content Include="Admin\Images\bg_01.gif" />
+    <Content Include="Admin\Images\bg_02.gif" />
+    <Content Include="Admin\Images\bg_03.gif" />
+    <Content Include="Admin\Images\blank.gif" />
+    <Content Include="Admin\Images\bottom_01.gif" />
+    <Content Include="Admin\Images\bottom_02.gif" />
+    <Content Include="Admin\Images\bottom_03.gif" />
+    <Content Include="Admin\Images\Briefcase16.gif" />
+    <Content Include="Admin\Images\Briefcase32.gif" />
+    <Content Include="Admin\Images\button_edit.gif" />
+    <Content Include="Admin\Images\button_search.GIF" />
+    <Content Include="Admin\Images\c6.gif" />
+    <Content Include="Admin\Images\card16.gif" />
+    <Content Include="Admin\Images\card32.gif" />
+    <Content Include="Admin\Images\company16.gif" />
+    <Content Include="Admin\Images\css.css" />
+    <Content Include="Admin\Images\d2.gif" />
+    <Content Include="Admin\Images\d3.gif" />
+    <Content Include="Admin\Images\desktop16.gif" />
+    <Content Include="Admin\Images\desktop32.gif" />
+    <Content Include="Admin\Images\desktop_01.gif" />
+    <Content Include="Admin\Images\desktop_02.gif" />
+    <Content Include="Admin\Images\desktop_03.gif" />
+    <Content Include="Admin\Images\dsj16.gif" />
+    <Content Include="Admin\Images\dsj32.gif" />
+    <Content Include="Admin\Images\f3.gif" />
+    <Content Include="Admin\Images\f4.gif" />
+    <Content Include="Admin\Images\find16.gif" />
+    <Content Include="Admin\Images\find32.gif" />
+    <Content Include="Admin\Images\folder16.gif" />
+    <Content Include="Admin\Images\folder32.gif" />
+    <Content Include="Admin\Images\foldergreen_16.gif" />
+    <Content Include="Admin\Images\ger16.gif" />
+    <Content Include="Admin\Images\ger32.gif" />
+    <Content Include="Admin\Images\gongg16.gif" />
+    <Content Include="Admin\Images\gongg32.gif" />
+    <Content Include="Admin\Images\gongzkp16.gif" />
+    <Content Include="Admin\Images\gongzkp32.gif" />
+    <Content Include="Admin\Images\help16.gif" />
+    <Content Include="Admin\Images\help32.gif" />
+    <Content Include="Admin\Images\image.gif" />
+    <Content Include="Admin\Images\in_bg.gif" />
+    <Content Include="Admin\Images\left-1-1.gif" />
+    <Content Include="Admin\Images\left-1-2.gif" />
+    <Content Include="Admin\Images\left-1-3.gif" />
+    <Content Include="Admin\Images\left-1.gif" />
+    <Content Include="Admin\Images\left-2-1.gif" />
+    <Content Include="Admin\Images\left-2-2.gif" />
+    <Content Include="Admin\Images\left-2-3.gif" />
+    <Content Include="Admin\Images\left-2.gif" />
+    <Content Include="Admin\Images\left-3-1.gif" />
+    <Content Include="Admin\Images\left-3-2.gif" />
+    <Content Include="Admin\Images\left-3-3.gif" />
+    <Content Include="Admin\Images\left-3.gif" />
+    <Content Include="Admin\Images\left-bj-1.gif" />
+    <Content Include="Admin\Images\left-bj-2.gif" />
+    <Content Include="Admin\Images\left-bj-3.gif" />
+    <Content Include="Admin\Images\left-bj.gif" />
+    <Content Include="Admin\Images\Loading.gif" />
+    <Content Include="Admin\Images\login.css" />
+    <Content Include="Admin\Images\login_p_img02.gif" />
+    <Content Include="Admin\Images\login_p_img03.gif" />
+    <Content Include="Admin\Images\login_p_img04.gif" />
+    <Content Include="Admin\Images\login_p_img05.gif" />
+    <Content Include="Admin\Images\login_p_img11.gif" />
+    <Content Include="Admin\Images\mag16.gif" />
+    <Content Include="Admin\Images\mail16.gif" />
+    <Content Include="Admin\Images\main_01.gif" />
+    <Content Include="Admin\Images\main_04.gif" />
+    <Content Include="Admin\Images\main_05.gif" />
+    <Content Include="Admin\Images\main_06.gif" />
+    <Content Include="Admin\Images\main_08.gif" />
+    <Content Include="Admin\Images\main_09.gif" />
+    <Content Include="Admin\Images\member_t04.JPG" />
+    <Content Include="Admin\Images\MenuImg\288.GIF" />
+    <Content Include="Admin\Images\MenuImg\about16.gif" />
+    <Content Include="Admin\Images\MenuImg\bbs16.gif" />
+    <Content Include="Admin\Images\MenuImg\find16.gif" />
+    <Content Include="Admin\Images\MenuImg\folder16.gif" />
+    <Content Include="Admin\Images\MenuImg\foldergreen_16.gif" />
+    <Content Include="Admin\Images\MenuImg\ger16.gif" />
+    <Content Include="Admin\Images\MenuImg\help16.gif" />
+    <Content Include="Admin\Images\MenuImg\news16.gif" />
+    <Content Include="Admin\Images\MenuImg\out16.gif" />
+    <Content Include="Admin\Images\MenuImg\Programs16.gif" />
+    <Content Include="Admin\Images\MenuImg\quanx16.gif" />
+    <Content Include="Admin\Images\MenuImg\thumbnails.gif" />
+    <Content Include="Admin\Images\MenuImg\times.gif" />
+    <Content Include="Admin\Images\MenuImg\ts16.gif" />
+    <Content Include="Admin\Images\MenuImg\user16.gif" />
+    <Content Include="Admin\Images\MenuImg\xinx16.gif" />
+    <Content Include="Admin\Images\MenuImg\zhut16.gif" />
+    <Content Include="Admin\Images\MenuImg\zjsp16.gif" />
+    <Content Include="Admin\Images\message16.gif" />
+    <Content Include="Admin\Images\module16.gif" />
+    <Content Include="Admin\Images\module32.gif" />
+    <Content Include="Admin\Images\more1.gif" />
+    <Content Include="Admin\Images\myfile16.gif" />
+    <Content Include="Admin\Images\myfile32.gif" />
+    <Content Include="Admin\Images\news16.gif" />
+    <Content Include="Admin\Images\onecard16.gif" />
+    <Content Include="Admin\Images\onecard32.gif" />
+    <Content Include="Admin\Images\out16.gif" />
+    <Content Include="Admin\Images\out32.gif" />
+    <Content Include="Admin\Images\plan16.gif" />
+    <Content Include="Admin\Images\plan32.gif" />
+    <Content Include="Admin\Images\point07.gif" />
+    <Content Include="Admin\Images\quanx16.gif" />
+    <Content Include="Admin\Images\quanx32.gif" />
+    <Content Include="Admin\Images\right-bj-1.gif" />
+    <Content Include="Admin\Images\right-bj-2.gif" />
+    <Content Include="Admin\Images\right-bj-3.gif" />
+    <Content Include="Admin\Images\right-bj.gif" />
+    <Content Include="Admin\Images\spacer.gif" />
+    <Content Include="Admin\Images\style.css" />
+    <Content Include="Admin\Images\top-1-1.gif" />
+    <Content Include="Admin\Images\top-1-2.gif" />
+    <Content Include="Admin\Images\top-1-3.gif" />
+    <Content Include="Admin\Images\top-1.gif" />
+    <Content Include="Admin\Images\top-2-1.gif" />
+    <Content Include="Admin\Images\top-2-2.gif" />
+    <Content Include="Admin\Images\top-2-3.gif" />
+    <Content Include="Admin\Images\top-2.gif" />
+    <Content Include="Admin\Images\top-3-1.gif" />
+    <Content Include="Admin\Images\top-3-2.gif" />
+    <Content Include="Admin\Images\top-3-3.gif" />
+    <Content Include="Admin\Images\top-3.gif" />
+    <Content Include="Admin\Images\top-4-1.gif" />
+    <Content Include="Admin\Images\top-4-2.gif" />
+    <Content Include="Admin\Images\top-4-3.gif" />
+    <Content Include="Admin\Images\top-4.gif" />
+    <Content Include="Admin\Images\top-5-1.gif" />
+    <Content Include="Admin\Images\top-5-2.gif" />
+    <Content Include="Admin\Images\top-5-3.gif" />
+    <Content Include="Admin\Images\top-5.gif" />
+    <Content Include="Admin\Images\top-bj-1.gif" />
+    <Content Include="Admin\Images\top-bj-2.gif" />
+    <Content Include="Admin\Images\top-bj-3.gif" />
+    <Content Include="Admin\Images\top-bj.gif" />
+    <Content Include="Admin\Images\topbar_01.jpg" />
+    <Content Include="Admin\Images\topbar_02.jpg" />
+    <Content Include="Admin\Images\topbar_03.jpg" />
+    <Content Include="Admin\Images\tubiao_01.GIF" />
+    <Content Include="Admin\Images\tubiao_02.gif" />
+    <Content Include="Admin\Images\user16.gif" />
+    <Content Include="Admin\Images\vote16.gif" />
+    <Content Include="Admin\Images\x16.gif" />
+    <Content Include="Admin\Images\xinx16.gif" />
+    <Content Include="Admin\Images\xinx32.gif" />
+    <Content Include="Admin\Images\yw16.gif" />
+    <Content Include="Admin\Images\zhut16.gif" />
+    <Content Include="Admin\Images\zjsp16.gif" />
+    <Content Include="Admin\Left.aspx" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\Logout.aspx" />
+    <Content Include="Admin\Main.aspx" />
+    <Content Include="Admin\Main.htm" />
+    <Content Include="Admin\Relogin.aspx" />
+    <Content Include="Admin\ShowCallBoard.aspx" />
+    <Content Include="Admin\Spliter.aspx" />
+    <Content Include="Admin\Style.css" />
+    <Content Include="Admin\SysManage\add.aspx" />
+    <Content Include="Admin\SysManage\CheckBox.js" />
+    <Content Include="Admin\SysManage\delete.aspx" />
+    <Content Include="Admin\SysManage\IndexTree.aspx" />
+    <Content Include="Admin\SysManage\logindex.aspx" />
+    <Content Include="Admin\SysManage\logshow.aspx" />
+    <Content Include="Admin\SysManage\makesql.aspx" />
+    <Content Include="Admin\SysManage\modify.aspx" />
+    <Content Include="Admin\SysManage\search.aspx" />
+    <Content Include="Admin\SysManage\show.aspx" />
+    <Content Include="Admin\SysManage\treelist.aspx" />
+    <Content Include="Admin\toindex.aspx" />
+    <Content Include="Admin\Top.aspx" />
+    <Content Include="MasterPage.master" />
+    <Content Include="ValidateCode.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Admin\Accounts\images\skin2\Thumbs.db" />
+    <None Include="Admin\Accounts\images\skin2\vssver2.scc" />
+    <None Include="Admin\Accounts\images\Thumbs.db" />
+    <None Include="Admin\Accounts\images\vssver2.scc" />
+    <Content Include="Web.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Components\" />
+    <Folder Include="NewFolder1\" />
+    <Folder Include="RYGL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>39235</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

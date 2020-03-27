@@ -1,0 +1,21 @@
+﻿<parameters>
+  <parameter name="IIS Web Application Name" defaultValue="Default Web Site/Web_deploy" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\project\\yxerp\\yxerp\\Web\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\project\\yxerp\\yxerp\\Web\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ConnectionString-Web.config Connection String" description="ConnectionString 应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="Data Source=127.0.0.1\A;Persist Security Info=True;User ID=sa;Password=xmbest2008" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\project\\yxerp\\yxerp\\Web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="YXERPConnectionString-Web.config Connection String" description="YXERPConnectionString 应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="Data Source=127.0.0.1\A;Initial Catalog=YXERP;User ID=sa;Password=xmbest2008" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\project\\yxerp\\yxerp\\Web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='YXERPConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="YXERPConnectionString2-Web.config Connection String" description="YXERPConnectionString2 应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="Data Source=127.0.0.1\A;Initial Catalog=YXERP;User ID=sa;Password=xmbest2008" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\project\\yxerp\\yxerp\\Web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='YXERPConnectionString2']/@connectionString" />
+  </parameter>
+  <parameter name="ConnectionString3-Web.config Connection String" description="ConnectionString3 应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="Data Source=188.188.1.8;Persist Security Info=True;User ID=sa;Password=xmbest2008" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\project\\yxerp\\yxerp\\Web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConnectionString3']/@connectionString" />
+  </parameter>
+  <parameter name="YXERPConnectionString3-Web.config Connection String" description="YXERPConnectionString3 应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="Data Source=188.188.1.8;Initial Catalog=AIS_YXDZP2018;User ID=sa;Password=xmbest2008" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\project\\yxerp\\yxerp\\Web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='YXERPConnectionString3']/@connectionString" />
+  </parameter>
+</parameters>

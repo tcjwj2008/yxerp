@@ -1,0 +1,17 @@
+E:\project\yxerp\Model\bin\Debug\yinxiang.Model.dll
+E:\project\yxerp\Model\bin\Debug\yinxiang.Model.pdb
+E:\project\yxerp\Model\obj\Debug\yinxiang.Model.dll
+E:\project\yxerp\Model\obj\Debug\yinxiang.Model.pdb
+F:\qiu\yxerp0105\yxerp\Model\bin\Debug\yinxiang.Model.dll
+F:\qiu\yxerp0105\yxerp\Model\bin\Debug\yinxiang.Model.pdb
+F:\qiu\yxerp0105\yxerp\Model\obj\Debug\yinxiang.Model.dll
+F:\qiu\yxerp0105\yxerp\Model\obj\Debug\yinxiang.Model.pdb
+E:\project\yxerp\yxerp\Model\bin\Debug\yinxiang.Model.dll
+E:\project\yxerp\yxerp\Model\bin\Debug\yinxiang.Model.pdb
+E:\project\yxerp\yxerp\Model\obj\Debug\yinxiang.Model.dll
+E:\project\yxerp\yxerp\Model\obj\Debug\yinxiang.Model.pdb
+F:\yxerp\yxerp\Model\bin\Debug\yinxiang.Model.dll
+F:\yxerp\yxerp\Model\bin\Debug\yinxiang.Model.pdb
+F:\yxerp\yxerp\Model\obj\Debug\yinxiang.Model.dll
+F:\yxerp\yxerp\Model\obj\Debug\yinxiang.Model.pdb
+F:\yxerp\yxerp\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

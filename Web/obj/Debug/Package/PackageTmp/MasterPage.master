@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="yinxiang.Web.MasterPage" %>
+<%@ Register Src="~/Controls/copyright.ascx" TagName="copyright" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>模板页</title>
+    <link href="/style.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 1021px;
+        }
+        .style2
+        {
+            width: 1789px;
+        }
+        .style3
+        {
+            width: 1789px;
+            height: 46px;
+        }
+    </style>
+</head>
+<body bgcolor="#fefbc6">
+    <form id="form1" runat="server">
+    <div align="center">
+        <table cellspacing="0" cellpadding="5" border="0" 
+            style="width: 1368px; height: 99px;">
+            <tr>
+                <td bgcolor='<%=Application[Session["Style"].ToString()+"xtable_bgcolor"]%>' 
+                    class="style1">
+                    <table cellspacing="0" bordercolordark='<%=Application[Session["Style"].ToString()+"xtable_bordercolordark"]%>'
+                        bordercolorlight='<%=Application[Session["Style"].ToString()+"xtable_bordercolorlight"]%>'
+                        cellpadding="5" border="1" style="width: 100%">
+                        <tr bgcolor="#e4e4e4">
+                            <td bgcolor='<%=Application[Session["Style"].ToString()+"xtable_titlebgcolor"]%>'
+                                height="22" align="left" class="style2">
+                                <%=TabTitle%>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style3">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    <p style="height: 24px; width: 1343px">
+                                        <br />
+                                    </p>
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <uc1:copyright ID="copyright1" runat="server" ClientIDMode="Predictable" 
+        ViewStateMode="Enabled" />
+    </form>
+</body>
+</html>
