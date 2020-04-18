@@ -171,7 +171,7 @@
         <div class="jj-list">
         <div class="jj-list-tit">· 系统管理</div>
         <ul class="jj-list-con">
-          <li><a href="https://map.baidu.com/" class="jj-list-link" target="_blank">用户管理</a></li>
+          <li><a href="k3_2Operator_new\list.aspx" class="jj-list-link" target="_blank">用户管理</a></li>
           <li><a href="http://www.google.cn/maps" class="jj-list-link" target="_blank">权限管理</a></li>
        
         
