@@ -41,6 +41,6 @@ F:\yxerp\yxerp\Common\bin\Debug\OpenSmtp.dll
 F:\yxerp\yxerp\Common\bin\Debug\OWC10Chart.dll
 F:\yxerp\yxerp\Common\bin\Debug\office.dll
 F:\yxerp\yxerp\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+F:\yxerp\yxerp\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
 F:\yxerp\yxerp\Common\obj\Debug\yinxiang.Common.dll
 F:\yxerp\yxerp\Common\obj\Debug\yinxiang.Common.pdb
-F:\yxerp\yxerp\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

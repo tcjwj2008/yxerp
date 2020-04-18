@@ -95,20 +95,20 @@ namespace yinxiang.Web.t_Item_XS_Base_New
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            DataTable dt = Common.CommExcel.NPOIExcelHelperNewVersion.ExcelToTableForXLS(this.TextBox1.Text);
-            DataTable myDT = new DataTable();
-            myDT.Columns.Add("产品代码", Type.GetType("System.String"));
-            myDT.Columns.Add("产品名称", Type.GetType("System.String"));
-            myDT.Columns.Add("肉品系数", Type.GetType("System.Double"));
-            myDT.Columns.Add("人工系数", Type.GetType("System.Double"));
-            myDT.Columns.Add("气调系数", Type.GetType("System.Double"));
-            myDT.Columns.Add("OrderID", Type.GetType("System.Double"));
-            myDT.Columns.Add("备注", Type.GetType("System.String"));
+            //DataTable dt = Common.CommExcel.NPOIExcelHelperNewVersion.ExcelToTableForXLS(this.TextBox1.Text);
+            //DataTable myDT = new DataTable();
+            //myDT.Columns.Add("产品代码", Type.GetType("System.String"));
+            //myDT.Columns.Add("产品名称", Type.GetType("System.String"));
+            //myDT.Columns.Add("肉品系数", Type.GetType("System.Double"));
+            //myDT.Columns.Add("人工系数", Type.GetType("System.Double"));
+            //myDT.Columns.Add("气调系数", Type.GetType("System.Double"));
+            //myDT.Columns.Add("OrderID", Type.GetType("System.Double"));
+            //myDT.Columns.Add("备注", Type.GetType("System.String"));
 
-            for (int i = 0; i < dt.Rows.Count; i++)
-            {
-                myDT.Rows.Add(dt.Rows[i].ItemArray);
-            }
+            //for (int i = 0; i < dt.Rows.Count; i++)
+            //{
+            //    myDT.Rows.Add(dt.Rows[i].ItemArray);
+            //}
             //SqlHelper.ExecuteNonQuery(ZtRyconstring, "DELETE from AIS_YXRY2.dbo.t_Item_XS_Base_New ");
             //SqlBulkCopyByDatatable(ZtRyconstring, "t_Item_XS_Base_New", myDT);
         }

@@ -128,6 +128,7 @@
     <Content Include="smes_functionName_new\List.aspx" />
     <Content Include="smes_functionName_new\Modify.aspx" />
     <Content Include="smes_functionName_new\Show.aspx" />
+    <Content Include="test.aspx" />
     <Content Include="t_Item_XS_Base_New\Add.aspx" />
     <Content Include="t_Item_XS_Base_New\List.aspx" />
     <Content Include="t_Item_XS_Base_New\Modify.aspx" />
@@ -777,6 +778,13 @@
     </Compile>
     <Compile Include="smes_functionName_new\Show.aspx.designer.cs">
       <DependentUpon>Show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
     </Compile>
     <Compile Include="t_Item_XS_Base_New\Add.aspx.cs">
       <DependentUpon>Add.aspx</DependentUpon>
