@@ -15,6 +15,8 @@ body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd {
 }
 img {
     border-style: none;
+	width: 425px;
+	height: 84px;
 }
 li {
     list-style: none;
@@ -42,7 +44,7 @@ textarea {
 
 
 .inner-center {
-    width: 1000px;
+    width: 1128px;
     margin: 0 auto;
  
 }
@@ -72,9 +74,11 @@ textarea {
 }
 .logo-left {
     position: relative;
-    width: 125px;
-    height: 121px;
+    width: 455px;
+    height: 87px;
     cursor: pointer;
+	top: 0px;
+	left: 0px;
 }
 .logo-right {
     padding-left: 36px;
@@ -93,6 +97,9 @@ textarea {
 .search-section {
     position: relative;
     display: flex;
+	top: 0px;
+	left: 0px;
+	height: 7px;
 }
 .search-left {
     display: flex;
@@ -257,7 +264,7 @@ textarea {
 /*-----------------------------简洁版样式定义- 开始---------------------------------------------------*/
 
 .jj-list {
-    width: 33.33%;
+    width: 47%;
     float: left;
     margin-bottom: 30px;
     padding-right: 16px;
@@ -279,7 +286,7 @@ textarea {
 .jj-list-con li {
     box-sizing: border-box; /*以IE盒子模型的width为标准*/
     padding: 1px 1px; /*设置div的内边距*/
-    width: 33.33%; /*div等分成4部分*/
+    width: 38%; /*div等分成4部分*/
     float: left;
 }
 

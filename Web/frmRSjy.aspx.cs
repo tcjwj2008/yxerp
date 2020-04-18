@@ -11,17 +11,17 @@ namespace yinxiang.Web.RP.from
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.TextBox1.Text = DateTime.Now.ToShortDateString();
-            this.TextBox2.Text = DateTime.Now.ToShortDateString();
-            this.GridView1.DataSource = BLL.frmRSjy.sp_sel_rsjyb(DateTime.Now.ToShortDateString(), DateTime.Now.ToShortDateString(), "", "0");
+            //this.TextBox1.Text = DateTime.Now.ToShortDateString();
+            //this.TextBox2.Text = DateTime.Now.ToShortDateString();
+            this.GridView1.DataSource = BLL.frmRSjy.sp_sel_rsjyb("2099-01-01", "2099-01-01", "9999", "0");
             this.GridView1.DataBind();
-            this.Label4.Text = "";
+           // this.Label4.Text = "";
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
           this.GridView1.DataSource= BLL.frmRSjy.sp_sel_rsjyb(this.TextBox1.Text, this.TextBox2.Text, this.TextBox3.Text, "0");
-          this.GridView1.DataBind();
+         
           for (int i = 0; i < GridView1.Columns.Count; i++)
           {
               if (GridView1.Columns[i].HeaderText == "当天屠宰头数" || GridView1.Columns[i].HeaderText == "当月屠宰头数")
@@ -29,9 +29,9 @@ namespace yinxiang.Web.RP.from
                   GridView1.Columns[i].Visible = false; //隐藏当列
               }
           }
+          this.GridView1.DataBind();
 
-
-          this.Label4.Text = " 读取经营数据完成.";
+          //this.Label4.Text = " 读取经营数据完成.";
         }
     }
 }

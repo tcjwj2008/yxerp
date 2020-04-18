@@ -10,7 +10,7 @@
 namespace yinxiang.Web {
     
     
-    public partial class WebForm5 {
+    public partial class MainPage {
         
         /// <summary>
         /// form1 控件。

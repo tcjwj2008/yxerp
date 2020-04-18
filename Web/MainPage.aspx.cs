@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace yinxiang.Web
 {
-    public partial class frmSLmain : System.Web.UI.Page
+    public partial class MainPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -310,7 +310,6 @@ F:\yxerp\yxerp\Web\obj\Debug\Maticsoft.Web.SysManage.treelist.resources
 F:\yxerp\yxerp\Web\obj\Debug\Maticsoft.Web.Admin.toindex.resources
 F:\yxerp\yxerp\Web\obj\Debug\Maticsoft.Web.Admin.Top.resources
 F:\yxerp\yxerp\Web\obj\Debug\yinxiang.Web.Global.resources
-F:\yxerp\yxerp\Web\obj\Debug\YXK3FZ.RP.rpt.Btsk_d.resources
 F:\yxerp\yxerp\Web\obj\Debug\Web.csproj.GenerateResource.Cache
 F:\yxerp\yxerp\Web\obj\Debug\yinxiang.Web.dll
 F:\yxerp\yxerp\Web\bin\yinxiang.Web.dll

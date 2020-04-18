@@ -12,8 +12,9 @@
         }
         .style18
         {
-            width: 902px;
+            width: 1066px;
             height: 18px;
+            text-align: left;
         }
         .style19
         {
@@ -27,14 +28,14 @@
         }
     </style>
 </head>
-<body bgcolor="#99ccff">
+<body >
     <form id="form1" runat="server">
       <table border=0>
           <tr>
 
            <td class="style7">
 
-               &nbsp;</td>
+               肉业经营表</td>
           </tr>      
       
       
@@ -55,26 +56,38 @@
                    class="border">
                 <tr>
                     <td class="style18">                       
-                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="Label1" runat="server" Text="开始日期"></asp:Label>
                         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label2" runat="server" Text="结束日期"></asp:Label>
                         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                        <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label3" runat="server" Text="部门代码"></asp:Label>
                         <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
                         <asp:Button ID="Button1" runat="server" onclick="Button1_Click" 
-                            style="text-align: left" Text="Button" />
-                        &nbsp;&nbsp;&nbsp;                    
+                            style="text-align: left" Text="查询" Height="27px" Width="47px" />
+                        &nbsp;<br />
+                        &nbsp;&nbsp;                    
                         
                     </td>
                     <td class="style19">
-                        <asp:Label ID="Label4" runat="server" style="color: #FF0000" Text="Label"></asp:Label>
-                    </td>
+                        &nbsp;</td>
                 </tr>
             </table>
             <!--Search end-->
                <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" 
-                   GridLines="None" Width="1524px">
+                   GridLines="None" Width="1524px" EmptyDataText="无数据">
                    <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                   <Columns>
+                       <asp:BoundField DataField="日期" HeaderText="日期" />
+                       <asp:BoundField DataField="部门代码" HeaderText="部门代码" />
+                       <asp:BoundField DataField="部门名称" HeaderText="部门名称" />
+                       <asp:BoundField />
+                       <asp:BoundField />
+                       <asp:BoundField />
+                       <asp:BoundField />
+                   </Columns>
                    <EditRowStyle BackColor="#999999" />
                    <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
                    <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
@@ -95,22 +108,13 @@
                <br />
                <br />
                <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
             <br />
                <table border="0" cellpadding="0" cellspacing="1" 
                    style="width: 100%; height: 0px;">
                 <tr>
                     <td align="left">
-                        &nbsp;</td>
+                        <asp:Label ID="Label4" runat="server" style="color: #FF0000"></asp:Label>
+                    </td>
                 </tr>
             </table>
               </td>

@@ -39,7 +39,7 @@ namespace yinxiang.Web
                 Session["password"] = user_pwd;
 
 
-                Response.Redirect("Main.aspx",false);
+                Response.Redirect("MainPage.aspx",false);
             }
             else
             {

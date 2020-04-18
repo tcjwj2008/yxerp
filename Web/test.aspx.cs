@@ -11,6 +11,11 @@ namespace yinxiang.Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+             this.Label1.Text = "当前用户为:" + Session["username"];
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
 
         }
     }

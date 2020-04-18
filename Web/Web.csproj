@@ -89,6 +89,7 @@
     <Content Include="css\style.css" />
     <Content Include="Images\login.png" />
     <Content Include="Images\loginsmall.png" />
+    <Content Include="index.html" />
     <Content Include="js\adapter.js" />
     <Content Include="js\calendar1.js" />
     <Content Include="js\CheckBox.js" />
@@ -104,19 +105,332 @@
     <Content Include="k3_2Operator_new\Modify.aspx" />
     <Content Include="k3_2Operator_new\Show.aspx" />
     <Content Include="frmBTpfsk.aspx" />
-    <Content Include="frmCostQueryForm.aspx" />
-    <Content Include="frmDZPmain.aspx" />
     <Content Include="frmRYmain.aspx" />
-    <Content Include="frmRZPmain.aspx" />
-    <Content Include="frmSLmain.aspx" />
-    <Content Include="frmSPmain.aspx" />
     <Content Include="frmYZmain.aspx" />
-    <Content Include="FunctionAdd.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="MainPage.aspx" />
+    <Content Include="obj\Debug\Package\Web\archive.xml" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\AddUser.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\add.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\Admin\editrole.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\Admin\index.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\Admin\permissionadmin.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\Admin\RoleAdmin.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\Admin\roleassignment.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\Admin\UserAdmin.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\Admin\UserAdminList.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\Admin\UserAssignmentRole.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\Admin\UserRoleAssignment.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\Admin\UserType.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\adminLeftArrow.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\admin_top_bg.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\bg.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\bg1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\bg2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\bg3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\bottombg.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\btnreview.GIF" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button-join.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button-login.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_add.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_back.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_cancel.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_close.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_del.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_edit.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_look.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_ok.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_save.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_search.GIF" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_sift.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\button_update.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\lan1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\lan12.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\loading.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\navspacer.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\skin2\downbg.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\skin2\topbar_01.jpg" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\images\topbg.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\setpass.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\style\css.css" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\style\style.css" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\userinfo.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\usermodify.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\userpass.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Accounts\userupdate.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\about16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\add16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\a_te01.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\a_te02.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\b1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\b11-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\b11-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\b11.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\b12.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\b13-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\b13-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\b13.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\b3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\b4.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\b5.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bar_00.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bar_01.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bar_02.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bar_03.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bar_04.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bar_05.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bar_06.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bar_07.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bar_08.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bar_10.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bg.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bgx.GIF" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bg_01.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bg_02.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bg_03.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\blank.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bottom_01.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bottom_02.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\bottom_03.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\Briefcase16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\Briefcase32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\button_edit.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\button_search.GIF" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\c6.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\card16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\card32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\company16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\css.css" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\d2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\d3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\desktop16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\desktop32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\desktop_01.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\desktop_02.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\desktop_03.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\dsj16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\dsj32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\f3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\f4.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\find16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\find32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\folder16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\folder32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\foldergreen_16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\ger16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\ger32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\gongg16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\gongg32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\gongzkp16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\gongzkp32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\help16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\help32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\image.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\in_bg.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-1-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-1-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-1-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-2-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-2-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-2-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-3-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-3-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-3-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-bj-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-bj-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-bj-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\left-bj.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\Loading.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\login.css" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\login_p_img02.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\login_p_img03.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\login_p_img04.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\login_p_img05.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\login_p_img11.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\mag16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\mail16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\main_01.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\main_04.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\main_05.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\main_06.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\main_08.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\main_09.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\member_t04.JPG" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\288.GIF" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\about16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\bbs16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\find16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\folder16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\foldergreen_16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\ger16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\help16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\news16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\out16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\Programs16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\quanx16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\thumbnails.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\times.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\ts16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\user16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\xinx16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\zhut16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\MenuImg\zjsp16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\message16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\module16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\module32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\more1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\myfile16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\myfile32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\news16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\onecard16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\onecard32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\out16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\out32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\plan16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\plan32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\point07.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\quanx16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\quanx32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\right-bj-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\right-bj-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\right-bj-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\right-bj.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\spacer.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\style.css" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-1-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-1-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-1-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-2-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-2-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-2-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-3-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-3-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-3-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-4-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-4-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-4-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-4.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-5-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-5-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-5-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-5.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-bj-1.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-bj-2.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-bj-3.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\top-bj.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\topbar_01.jpg" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\topbar_02.jpg" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\topbar_03.jpg" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\tubiao_01.GIF" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\tubiao_02.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\user16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\vote16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\x16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\xinx16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\xinx32.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\yw16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\zhut16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Images\zjsp16.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Left.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Login.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Logout.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Main.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Main.htm" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Relogin.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\ShowCallBoard.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Spliter.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Style.css" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\SysManage\add.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\SysManage\CheckBox.js" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\SysManage\delete.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\SysManage\IndexTree.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\SysManage\logindex.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\SysManage\logshow.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\SysManage\makesql.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\SysManage\modify.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\SysManage\search.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\SysManage\show.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\SysManage\treelist.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\toindex.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Admin\Top.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\COM.Excel.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\Excel.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\IBatisNet.Common.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\IBatisNet.DataMapper.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\LTP.Accounts.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\LtpPageControl.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\Microsoft.Web.UI.WebControls.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\MySql.Data.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\OpenSmtp.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\System.Data.SQLite.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.BLL.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.BLL.pdb" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.Common.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.Common.pdb" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.DAL.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.DAL.pdb" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.DBUtility.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.DBUtility.pdb" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.Model.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.Model.pdb" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.Web.dll" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\bin\yinxiang.Web.pdb" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Controls\checkright.ascx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Controls\copyright.ascx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Default.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\frmBTpfsk.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\frmCostQueryForm.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\frmDZPmain.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\frmRYmain.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\frmRZPmain.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\frmSLmain.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\frmSPmain.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\frmYZmain.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\FunctionAdd.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Global.asax" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Login.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Main.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\RP\from\frmRSjy.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\RP\from\frmXSKHQKreport.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\RP\from\frmYXCKreport.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\smes_functionName\Add.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\smes_functionName\List.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\smes_functionName\Modify.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\smes_functionName\Show.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Style.css" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\UserAdd.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\UserList.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\UserUpdate.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\ValidateCode.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\yinxiang.gif" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\YXRY.aspx" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\YXRYForprint.aspx" />
+    <Content Include="obj\Debug\Package\Web\parameters.xml" />
+    <Content Include="obj\Debug\Package\Web\systemInfo.xml" />
+    <Content Include="obj\Debug\TempPE\CrystalReport1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\DataSet1.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\RP.rpt.btpfsk1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\RP.rpt.Btsk_d1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\RP.rpt.btsk_d_dz1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\RP.rpt.dzpysdzd1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\RP.rpt.dzpyxtj1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\RP.rpt.yx_cr_pdjy1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\RP.rpt.白条批发部级别明细1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\RP.rpt.筐具出入库订单打印1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\RP.rpt.肉业订单打印1.cs.dll" />
+    <Content Include="obj\Debug\TempPE\RP.rpt.食品销售计划表1.cs.dll" />
+    <Content Include="obj\Debug\Web.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\yinxiang.Web.dll" />
+    <Content Include="obj\Debug\yinxiang.Web.pdb" />
     <Content Include="RP\from\frmBTpfsk.aspx" />
     <Content Include="RP\from\frmBTpfsk1.aspx" />
-    <Content Include="Main.aspx" />
-    <Content Include="RP\from\frmRSjy.aspx" />
+    <Content Include="frmRSjy.aspx" />
     <Content Include="RP\from\frmXSKHQKreport.aspx" />
     <Content Include="RP\from\frmYSMXZreport.aspx" />
     <Content Include="RP\from\frmYXCKreport.aspx" />
@@ -128,12 +442,30 @@
     <Content Include="smes_functionName_new\List.aspx" />
     <Content Include="smes_functionName_new\Modify.aspx" />
     <Content Include="smes_functionName_new\Show.aspx" />
+    <Content Include="static\css\img\github.png" />
+    <Content Include="static\css\img\scbaidu.png" />
+    <Content Include="static\css\img\scbing.png" />
+    <Content Include="static\css\img\scgoogle.png" />
+    <Content Include="static\css\img\scso.png" />
+    <Content Include="static\css\img\scsogou.png" />
+    <Content Include="static\css\img\scwangpan.png" />
+    <Content Include="static\css\img\search.png" />
+    <Content Include="static\css\style.css" />
+    <Content Include="static\img\favicon.ico" />
+    <Content Include="static\img\login.png" />
+    <Content Include="static\img\logo.gif" />
+    <Content Include="static\js\jquery.min.js" />
+    <Content Include="static\js\keyword.js" />
+    <Content Include="TabForm.aspx" />
     <Content Include="test.aspx" />
     <Content Include="t_Item_XS_Base_New\Add.aspx" />
     <Content Include="t_Item_XS_Base_New\List.aspx" />
     <Content Include="t_Item_XS_Base_New\Modify.aspx" />
     <Content Include="t_Item_XS_Base_New\Show.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="UserAdd.aspx" />
+    <Content Include="UserList.aspx" />
+    <Content Include="UserUpdate.aspx" />
     <Content Include="webctrl_client\1_0\Images\folder.gif" />
     <Content Include="webctrl_client\1_0\Images\folderopen.gif" />
     <Content Include="webctrl_client\1_0\Images\html.gif" />
@@ -174,14 +506,13 @@
     <Content Include="webctrl_client\1_0\TreeImages\Tplus.gif" />
     <Content Include="webctrl_client\1_0\TreeImages\white.gif" />
     <Content Include="webctrl_client\1_0\treeview.htc" />
-    <Content Include="WebForm5.aspx" />
     <Content Include="yinxiang.gif" />
     <Content Include="YXRY.aspx" />
-    <Content Include="YXRYForprint.aspx" />
     <Content Include="yx_functionuser_new\Add.aspx" />
     <Content Include="yx_functionuser_new\List.aspx" />
     <Content Include="yx_functionuser_new\Modify.aspx" />
     <Content Include="yx_functionuser_new\Show.aspx" />
+    <Content Include="Main.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin\Accounts\Add.aspx.cs">
@@ -461,20 +792,6 @@
     <Compile Include="frmBTpfsk.aspx.designer.cs">
       <DependentUpon>frmBTpfsk.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmCostQueryForm.aspx.cs">
-      <DependentUpon>frmCostQueryForm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="frmCostQueryForm.aspx.designer.cs">
-      <DependentUpon>frmCostQueryForm.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="frmDZPmain.aspx.cs">
-      <DependentUpon>frmDZPmain.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="frmDZPmain.aspx.designer.cs">
-      <DependentUpon>frmDZPmain.aspx</DependentUpon>
-    </Compile>
     <Compile Include="frmRYmain.aspx.cs">
       <DependentUpon>frmRYmain.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -482,40 +799,12 @@
     <Compile Include="frmRYmain.aspx.designer.cs">
       <DependentUpon>frmRYmain.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmRZPmain.aspx.cs">
-      <DependentUpon>frmRZPmain.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="frmRZPmain.aspx.designer.cs">
-      <DependentUpon>frmRZPmain.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="frmSLmain.aspx.cs">
-      <DependentUpon>frmSLmain.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="frmSLmain.aspx.designer.cs">
-      <DependentUpon>frmSLmain.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="frmSPmain.aspx.cs">
-      <DependentUpon>frmSPmain.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="frmSPmain.aspx.designer.cs">
-      <DependentUpon>frmSPmain.aspx</DependentUpon>
-    </Compile>
     <Compile Include="frmYZmain.aspx.cs">
       <DependentUpon>frmYZmain.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmYZmain.aspx.designer.cs">
       <DependentUpon>frmYZmain.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FunctionAdd.aspx.cs">
-      <DependentUpon>FunctionAdd.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FunctionAdd.aspx.designer.cs">
-      <DependentUpon>FunctionAdd.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -576,12 +865,12 @@
     <Compile Include="k3_2Operator_new\Show.aspx.designer.cs">
       <DependentUpon>Show.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main.aspx.cs">
-      <DependentUpon>Main.aspx</DependentUpon>
+    <Compile Include="MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main.aspx.designer.cs">
-      <DependentUpon>Main.aspx</DependentUpon>
+    <Compile Include="MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.master.cs">
       <DependentUpon>MasterPage.master</DependentUpon>
@@ -605,11 +894,11 @@
     <Compile Include="RP\from\frmBTpfsk1.aspx.designer.cs">
       <DependentUpon>frmBTpfsk1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="RP\from\frmRSjy.aspx.cs">
+    <Compile Include="frmRSjy.aspx.cs">
       <DependentUpon>frmRSjy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="RP\from\frmRSjy.aspx.designer.cs">
+    <Compile Include="frmRSjy.aspx.designer.cs">
       <DependentUpon>frmRSjy.aspx</DependentUpon>
     </Compile>
     <Compile Include="RP\from\frmXSKHQKreport.aspx.cs">
@@ -632,96 +921,6 @@
     </Compile>
     <Compile Include="RP\from\frmYXCKreport.aspx.designer.cs">
       <DependentUpon>frmYXCKreport.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="RP\rpt\btpfsk.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\btpfsk1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>btpfsk.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\Btsk_d.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\Btsk_d1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Btsk_d.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\btsk_d_dz.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\btsk_d_dz1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>btsk_d_dz.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\dzpysdzd.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\dzpysdzd1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>dzpysdzd.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\dzpyxtj.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\dzpyxtj1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>dzpyxtj.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\yx_cr_pdjy.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\yx_cr_pdjy1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>yx_cr_pdjy.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\白条批发部级别明细.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\白条批发部级别明细1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>白条批发部级别明细.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\筐具出入库订单打印.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\筐具出入库订单打印1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>筐具出入库订单打印.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\肉业订单打印.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\肉业订单打印1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>肉业订单打印.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\食品销售计划表.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RP\rpt\食品销售计划表1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>食品销售计划表.rpt</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="smes_functionName\Add.aspx.cs">
       <DependentUpon>Add.aspx</DependentUpon>
@@ -779,6 +978,13 @@
     <Compile Include="smes_functionName_new\Show.aspx.designer.cs">
       <DependentUpon>Show.aspx</DependentUpon>
     </Compile>
+    <Compile Include="TabForm.aspx.cs">
+      <DependentUpon>TabForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TabForm.aspx.designer.cs">
+      <DependentUpon>TabForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="test.aspx.cs">
       <DependentUpon>test.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -815,6 +1021,27 @@
       <DependentUpon>Show.aspx</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <Compile Include="UserAdd.aspx.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserAdd.aspx.designer.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserUpdate.aspx.cs">
+      <DependentUpon>UserUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserUpdate.aspx.designer.cs">
+      <DependentUpon>UserUpdate.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ValidateCode.aspx.cs">
       <DependentUpon>ValidateCode.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -829,26 +1056,12 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm5.aspx.cs">
-      <DependentUpon>WebForm5.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm5.aspx.designer.cs">
-      <DependentUpon>WebForm5.aspx</DependentUpon>
-    </Compile>
     <Compile Include="YXRY.aspx.cs">
       <DependentUpon>YXRY.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="YXRY.aspx.designer.cs">
       <DependentUpon>YXRY.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="YXRYForprint.aspx.cs">
-      <DependentUpon>YXRYForprint.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="YXRYForprint.aspx.designer.cs">
-      <DependentUpon>YXRYForprint.aspx</DependentUpon>
     </Compile>
     <Compile Include="yx_functionuser_new\Add.aspx.cs">
       <DependentUpon>Add.aspx</DependentUpon>
@@ -877,6 +1090,13 @@
     </Compile>
     <Compile Include="yx_functionuser_new\Show.aspx.designer.cs">
       <DependentUpon>Show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -976,49 +1196,35 @@
       <DependentUpon>Global.asax.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="RP\rpt\btpfsk.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>btpfsk1.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RP\rpt\Btsk_d.resx">
-      <DependentUpon>Btsk_d.cs</DependentUpon>
-    </EmbeddedResource>
-    <Content Include="RP\rpt\Btsk_d.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>Btsk_d1.cs</LastGenOutput>
-    </Content>
-    <EmbeddedResource Include="RP\rpt\btsk_d_dz.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>btsk_d_dz1.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RP\rpt\dzpysdzd.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>dzpysdzd1.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RP\rpt\dzpyxtj.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>dzpyxtj1.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RP\rpt\yx_cr_pdjy.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>yx_cr_pdjy1.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RP\rpt\白条批发部级别明细.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>白条批发部级别明细1.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RP\rpt\筐具出入库订单打印.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>筐具出入库订单打印1.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RP\rpt\肉业订单打印.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>肉业订单打印1.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RP\rpt\食品销售计划表.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>食品销售计划表1.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Accounts.Add.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Accounts.Admin.EditRole.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Accounts.Admin.PermissionAdmin.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Accounts.Admin.RoleAdmin.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Accounts.Admin.RoleAssignment.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Accounts.Admin.UserAdmin.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Accounts.Index.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Accounts.userinfo.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Accounts.usermodify.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Accounts.userPass.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Accounts.userupdate.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Admin.Left.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Admin.Logout.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Admin.Main.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Admin.Relogin.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Admin.ShowCallBoard.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Admin.Spliter.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Admin.toindex.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.Admin.Top.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.SysManage.add.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.SysManage.delete.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.SysManage.LogIndex.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.SysManage.LogShow.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.SysManage.makesql.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.SysManage.modify.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.SysManage.search.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.SysManage.show.resources" />
+    <EmbeddedResource Include="obj\Debug\Maticsoft.Web.SysManage.treelist.resources" />
+    <EmbeddedResource Include="obj\Debug\yinxiang.Web.Global.resources" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj">
@@ -1303,11 +1509,17 @@
     <None Include="DataSet1.xss">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\MasterPage.master" />
+    <Content Include="obj\Debug\Package\Web\Content\E_C\project\yxerp\yxerp\Web\obj\Debug\Package\PackageTmp\Web.config" />
+    <None Include="obj\Debug\Web.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\Web.csprojResolveAssemblyReference.cache" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Components\" />
     <Folder Include="NewFolder1\" />
     <Folder Include="RYGL\" />
+    <Folder Include="YRKJ\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />

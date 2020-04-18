@@ -16,7 +16,7 @@ namespace yinxiang.Web
       
         protected void Page_Load(object sender, EventArgs e)
         {
-            form1.Target = "_blank";
+          
             BLL.smes_functionName functionList = new yinxiang.BLL.smes_functionName();
             DataSet ds = new DataSet();
             ds = functionList.GetList_New(@"yx_functionuser_new.username ='" + Session["username"]+"'");

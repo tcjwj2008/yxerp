@@ -62,20 +62,18 @@
         }
     </style>
 </head>
-<body bgcolor="#fefbc6">
+<body >
     <form id="form1" runat="server"  target=_blank>
 
            <table border="0" cellspacing="0" cellpadding="0" 
             align="center" 
-               style="height: 554px; width: 574px; background-color: #FEFBC6;">
+               style="height: 554px; width: 574px; ">
                                     <tr>
                                         <td align="center">
                                             <table cellspacing="0" cellpadding="0" border="0" style="width: 320px">
                                                 <tr>
                                                     <td valign="top" class="style7" colspan="2" >
-                                                        <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/login.png" 
-                                                            Width="355px" />
-                                                    </td>
+                                                        &nbsp;</td>
                                                 </tr>
                                                 <tr>
                                                     <td valign="top" class="style10" >
