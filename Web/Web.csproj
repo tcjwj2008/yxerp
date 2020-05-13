@@ -89,7 +89,6 @@
     <Content Include="css\style.css" />
     <Content Include="Images\login.png" />
     <Content Include="Images\loginsmall.png" />
-    <Content Include="index.html" />
     <Content Include="js\adapter.js" />
     <Content Include="js\calendar1.js" />
     <Content Include="js\CheckBox.js" />
@@ -106,7 +105,6 @@
     <Content Include="k3_2Operator_new\Show.aspx" />
     <Content Include="frmBTpfsk.aspx" />
     <Content Include="frmRYmain.aspx" />
-    <Content Include="frmYZmain.aspx" />
     <Content Include="Global.asax" />
     <Content Include="MainPage.aspx" />
     <Content Include="obj\Debug\Package\Web\archive.xml" />
@@ -434,6 +432,7 @@
     <Content Include="RP\from\frmXSKHQKreport.aspx" />
     <Content Include="RP\from\frmYSMXZreport.aspx" />
     <Content Include="RP\from\frmYXCKreport.aspx" />
+    <Content Include="RYMain.aspx" />
     <Content Include="smes_functionName\Add.aspx" />
     <Content Include="smes_functionName\List.aspx" />
     <Content Include="smes_functionName\Modify.aspx" />
@@ -462,10 +461,6 @@
     <Content Include="t_Item_XS_Base_New\List.aspx" />
     <Content Include="t_Item_XS_Base_New\Modify.aspx" />
     <Content Include="t_Item_XS_Base_New\Show.aspx" />
-    <Content Include="Login.aspx" />
-    <Content Include="UserAdd.aspx" />
-    <Content Include="UserList.aspx" />
-    <Content Include="UserUpdate.aspx" />
     <Content Include="webctrl_client\1_0\Images\folder.gif" />
     <Content Include="webctrl_client\1_0\Images\folderopen.gif" />
     <Content Include="webctrl_client\1_0\Images\html.gif" />
@@ -767,12 +762,6 @@
     <Compile Include="Controls\CopyRight.ascx.designer.cs">
       <DependentUpon>copyright.ascx</DependentUpon>
     </Compile>
-    <Compile Include="CrystalReport1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CrystalReport1.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -798,13 +787,6 @@
     </Compile>
     <Compile Include="frmRYmain.aspx.designer.cs">
       <DependentUpon>frmRYmain.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="frmYZmain.aspx.cs">
-      <DependentUpon>frmYZmain.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="frmYZmain.aspx.designer.cs">
-      <DependentUpon>frmYZmain.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -922,6 +904,13 @@
     <Compile Include="RP\from\frmYXCKreport.aspx.designer.cs">
       <DependentUpon>frmYXCKreport.aspx</DependentUpon>
     </Compile>
+    <Compile Include="RYMain.aspx.cs">
+      <DependentUpon>RYMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RYMain.aspx.designer.cs">
+      <DependentUpon>RYMain.aspx</DependentUpon>
+    </Compile>
     <Compile Include="smes_functionName\Add.aspx.cs">
       <DependentUpon>Add.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1021,40 +1010,12 @@
       <DependentUpon>Show.aspx</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
-    <Compile Include="UserAdd.aspx.cs">
-      <DependentUpon>UserAdd.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserAdd.aspx.designer.cs">
-      <DependentUpon>UserAdd.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="UserList.aspx.cs">
-      <DependentUpon>UserList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserList.aspx.designer.cs">
-      <DependentUpon>UserList.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="UserUpdate.aspx.cs">
-      <DependentUpon>UserUpdate.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserUpdate.aspx.designer.cs">
-      <DependentUpon>UserUpdate.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ValidateCode.aspx.cs">
       <DependentUpon>ValidateCode.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ValidateCode.aspx.designer.cs">
       <DependentUpon>ValidateCode.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="YXRY.aspx.cs">
       <DependentUpon>YXRY.aspx</DependentUpon>
@@ -1101,7 +1062,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="Style.css" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Admin\Accounts\Add.aspx.resx">
@@ -1187,10 +1147,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Top.aspx.resx">
       <DependentUpon>Top.aspx.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CrystalReport1.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Global.asax.resx">
       <DependentUpon>Global.asax.cs</DependentUpon>
@@ -1519,7 +1475,6 @@
     <Folder Include="Components\" />
     <Folder Include="NewFolder1\" />
     <Folder Include="RYGL\" />
-    <Folder Include="YRKJ\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />

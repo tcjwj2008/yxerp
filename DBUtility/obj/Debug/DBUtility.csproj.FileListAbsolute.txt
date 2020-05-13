@@ -30,3 +30,4 @@ F:\yxerp\yxerp\DBUtility\bin\Debug\MySql.Data.dll
 F:\yxerp\yxerp\DBUtility\bin\Debug\System.Data.SQLite.DLL
 F:\yxerp\yxerp\DBUtility\obj\Debug\yinxiang.DBUtility.dll
 F:\yxerp\yxerp\DBUtility\obj\Debug\yinxiang.DBUtility.pdb
+F:\yxerp\yxerp\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache

@@ -24,7 +24,7 @@
         }
     </style>
 </head>
-<body bgcolor="#fefbc6">
+<body>
     <form id="form1" runat="server">
     <div align="center">
         <table cellspacing="0" cellpadding="5" border="0" 

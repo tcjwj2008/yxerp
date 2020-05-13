@@ -14,3 +14,4 @@ F:\yxerp\yxerp\Model\bin\Debug\yinxiang.Model.dll
 F:\yxerp\yxerp\Model\bin\Debug\yinxiang.Model.pdb
 F:\yxerp\yxerp\Model\obj\Debug\yinxiang.Model.dll
 F:\yxerp\yxerp\Model\obj\Debug\yinxiang.Model.pdb
+F:\yxerp\yxerp\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

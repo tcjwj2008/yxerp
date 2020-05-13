@@ -29,6 +29,14 @@
         {
             text-align: center;
         }
+        .style1
+        {
+            font-size: 16px;
+            line-height: 25px;
+            color: rgba(49, 70, 89, 1);
+            font-weight: bold;
+            text-align: left;
+        }
     </style>
 </head>
 <body bgcolor="#fefbc6">
@@ -51,7 +59,7 @@
     <!-- 导航地址 start -->
     <div class="nav-content">
       <div class="jj-list">
-        <div class="jj-list-tit">&nbsp;· 银祥肉业</div>
+        <div class="style1">&nbsp;<a href="RYMain.aspx">· 银祥肉业</a></div>
         <ul class="jj-list-con">
           <li><a href="test.aspx" class="jj-list-link" target="_blank">成本查询</a></li>
           <li><a href="https://www.baidu.com/" class="jj-list-link" target="_blank">数据汇总查询</a></li>
