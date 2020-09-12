@@ -43,3 +43,17 @@ F:\yxerp\yxerp\Common\bin\Debug\office.dll
 F:\yxerp\yxerp\Common\bin\Debug\Microsoft.Vbe.Interop.dll
 F:\yxerp\yxerp\Common\obj\Debug\yinxiang.Common.dll
 F:\yxerp\yxerp\Common\obj\Debug\yinxiang.Common.pdb
+F:\studycode2020\yxerp\Common\bin\Debug\yinxiang.Common.dll
+F:\studycode2020\yxerp\Common\bin\Debug\yinxiang.Common.pdb
+F:\studycode2020\yxerp\Common\bin\Debug\COM.Excel.dll
+F:\studycode2020\yxerp\Common\bin\Debug\Excel.dll
+F:\studycode2020\yxerp\Common\bin\Debug\NPOI.dll
+F:\studycode2020\yxerp\Common\bin\Debug\NPOI.OOXML.dll
+F:\studycode2020\yxerp\Common\bin\Debug\NPOI.OpenXml4Net.dll
+F:\studycode2020\yxerp\Common\bin\Debug\NPOI.OpenXmlFormats.dll
+F:\studycode2020\yxerp\Common\bin\Debug\OpenSmtp.dll
+F:\studycode2020\yxerp\Common\bin\Debug\OWC10Chart.dll
+F:\studycode2020\yxerp\Common\bin\Debug\office.dll
+F:\studycode2020\yxerp\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+F:\studycode2020\yxerp\Common\obj\Debug\yinxiang.Common.dll
+F:\studycode2020\yxerp\Common\obj\Debug\yinxiang.Common.pdb

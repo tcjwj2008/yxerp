@@ -31,3 +31,11 @@ F:\yxerp\yxerp\DBUtility\bin\Debug\System.Data.SQLite.DLL
 F:\yxerp\yxerp\DBUtility\obj\Debug\yinxiang.DBUtility.dll
 F:\yxerp\yxerp\DBUtility\obj\Debug\yinxiang.DBUtility.pdb
 F:\yxerp\yxerp\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+F:\studycode2020\yxerp\DBUtility\bin\Debug\yinxiang.DBUtility.dll
+F:\studycode2020\yxerp\DBUtility\bin\Debug\yinxiang.DBUtility.pdb
+F:\studycode2020\yxerp\DBUtility\bin\Debug\IBatisNet.Common.dll
+F:\studycode2020\yxerp\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+F:\studycode2020\yxerp\DBUtility\bin\Debug\MySql.Data.dll
+F:\studycode2020\yxerp\DBUtility\bin\Debug\System.Data.SQLite.DLL
+F:\studycode2020\yxerp\DBUtility\obj\Debug\yinxiang.DBUtility.dll
+F:\studycode2020\yxerp\DBUtility\obj\Debug\yinxiang.DBUtility.pdb
